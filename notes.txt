@@ -1,0 +1,39 @@
+DOCKER
+
+- Start:
+$ docker-compose up
+
+$ docker ps
+CONTAINER ID        IMAGE                      COMMAND                  CREATED             STATUS              PORTS                                            NAMES
+b9777f4a1438        docker-elk_kibana          "/bin/bash /usr/loca…"   21 hours ago        Up About a minute   0.0.0.0:5601->5601/tcp                           docker-elk_kibana_1
+3b418007220e        docker-elk_logstash        "/usr/local/bin/dock…"   21 hours ago        Up About a minute   5044/tcp, 0.0.0.0:5000->5000/tcp, 9600/tcp       docker-elk_logstash_1
+70677a8cb8e1        docker-elk_elasticsearch   "/usr/local/bin/dock…"   21 hours ago        Up About a minute   0.0.0.0:9200->9200/tcp, 0.0.0.0:9300->9300/tcp   docker-elk_elasticsearch_1
+
+- Open a shell:
+$ docker exec -it docker-elk_elasticsearch_1 bash
+[root@70677a8cb8e1 elasticsearch]# ./bin/elasticsearch-plugin list
+ingest-geoip
+ingest-user-agent
+
+
+LOGSTASH
+
+- Send a log file to logstash directly:
+$ nc localhost 5000 < /path/to/logfile.log
+
+
+FILEBEAT NATIVE
+
+- Delete registry:
+rm data/registry
+
+- Configure Kibana dashboards
+./filebeat setup --dashboards
+or:
+docker run docker.elastic.co/beats/filebeat:6.2.4 setup --dashboards
+
+- Start filebeat and manually activate the module nginx:
+$ ./filebeat -e --modules nginx -M "nginx.access.var.paths=[/Users/nimiq/workspace/docker-elk/new/filebeat-6.2.4-darwin-x86_64/logs/nginx/access.log*]"
+
+- Start filebeat (with the proper config file and confgired modules):
+./filebeat -e -c filebeat.yml
