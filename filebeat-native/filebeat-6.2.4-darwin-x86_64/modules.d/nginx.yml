@@ -5,7 +5,7 @@
 
     # Set custom paths for the log files. If left empty,
     # Filebeat will choose the paths depending on your OS.
-    var.paths: [/Users/nimiq/workspace/docker-elk/new/filebeat-6.2.4-darwin-x86_64/logs/nginx/access.log*]
+    var.paths: [/Users/nimiq/workspace/docker-elk/filebeat-native/test-data/logs/nginx/access.log*]
 
   # Error logs
   error:
@@ -13,4 +13,4 @@
 
     # Set custom paths for the log files. If left empty,
     # Filebeat will choose the paths depending on your OS.
-    var.paths: [/Users/nimiq/workspace/docker-elk/new/filebeat-6.2.4-darwin-x86_64/logs/nginx/error.log*]
+    var.paths: [/Users/nimiq/workspace/docker-elk/filebeat-native/test-data/logs/nginx/error.log*]

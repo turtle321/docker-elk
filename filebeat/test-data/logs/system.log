@@ -1,0 +1,264 @@
+Jun 13 00:00:12 --- last message repeated 2 times ---
+Jun 13 00:00:12 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:00:42 --- last message repeated 2 times ---
+Jun 13 00:00:42 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:01:12 --- last message repeated 2 times ---
+Jun 13 00:01:12 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:01:23 --- last message repeated 1 time ---
+Jun 13 00:01:23 macnim syslogd[39]: ASL Sender Statistics
+Jun 13 00:01:33 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:01:43 --- last message repeated 1 time ---
+Jun 13 00:01:43 macnim kcm[13373]: DEPRECATED USE in libdispatch client: Setting timer interval to 0 requests a 1ns timer, did you mean FOREVER (a one-shot timer)?
+Jun 13 00:01:53 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:01:54 macnim com.apple.xpc.launchd[1] (com.apple.quicklook[13405]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Jun 13 00:01:58 macnim systemstats[51]: assertion failed: 17E202: systemstats + 689866 [D1E75C38-62CE-3D77-9ED3-5F6D38EF0676]: 0x5
+Jun 13 00:02:03 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:02:33 --- last message repeated 2 times ---
+Jun 13 00:02:33 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:03:03 --- last message repeated 2 times ---
+Jun 13 00:03:03 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:03:33 --- last message repeated 2 times ---
+Jun 13 00:03:33 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:04:03 --- last message repeated 2 times ---
+Jun 13 00:04:03 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:04:33 --- last message repeated 2 times ---
+Jun 13 00:04:33 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:05:03 --- last message repeated 2 times ---
+Jun 13 00:05:03 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:05:33 --- last message repeated 2 times ---
+Jun 13 00:05:33 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:06:03 --- last message repeated 2 times ---
+Jun 13 00:06:03 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:06:05 macnim com.apple.xpc.launchd[1] (com.apple.quicklook[14179]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Jun 13 00:06:09 macnim garcon[37251]: Connecting to Dropbox on 'com.getdropbox.dropbox.garcon.cafe_501'
+Jun 13 00:06:09 macnim garcon[37251]: Connected to Dropbox on 'com.getdropbox.dropbox.garcon.cafe_501'.
+Jun 13 00:06:09 macnim garcon[37251]: Garcon is ready (2 alive).
+Jun 13 00:06:09 macnim garcon[37251]: Invalidating watch set.
+Jun 13 00:06:09 macnim garcon[37251]: Watch set is now: {(
+	    file:///Users/nimiq/Dropbox/
+	)}.
+Jun 13 00:06:13 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:06:15 macnim garcon[37251]: Garcon destroyed (1 alive).
+Jun 13 00:06:19 macnim GoogleSoftwareUpdateAgent[14237]: 2018-06-13 00:06:19.701 GoogleSoftwareUpdateAgent[14237/0x7fffa7e33380] [lvl=2] -[KSAgentApp(PrivateMethods) setUpLoggerOutputForVerboseMode:] Agent default/global settings: <KSAgentSettings:0x10025b350 bundleID=com.google.Keystone.Agent lastCheck=2018-06-12 19:05:10 +0000 lastServerCheck=2018-06-12 19:05:08 +0000 lastCheckStart=2018-06-12 19:05:07 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/nimiq/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration alwaysPromptForUpdates=0 lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Jun 13 00:06:22 macnim Preview[14248]: objc[14248]: Class FIFinderSyncExtensionHost is implemented in both /System/Library/PrivateFrameworks/FinderKit.framework/Versions/A/FinderKit (0x7fffa49d9c90) and /System/Library/PrivateFrameworks/FileProvider.framework/OverrideBundles/FinderSyncCollaborationFileProviderOverride.bundle/Contents/MacOS/FinderSyncCollaborationFileProviderOverride (0x10e13bcd8). One of the two will be used. Which one is undefined.
+Jun 13 00:06:23 macnim garcon[14251]: Connecting to Dropbox on 'com.getdropbox.dropbox.garcon.cafe_501'
+Jun 13 00:06:23 macnim garcon[14251]: Connected to Dropbox on 'com.getdropbox.dropbox.garcon.cafe_501'.
+Jun 13 00:06:23 macnim garcon[14251]: Garcon is ready (1 alive).
+Jun 13 00:06:23 macnim garcon[14251]: Invalidating watch set.
+Jun 13 00:06:23 macnim garcon[14251]: Watch set is now: {(
+	    file:///Users/nimiq/Dropbox/
+	)}.
+Jun 13 00:06:23 macnim Preview[14248]: assertion failed: 17E202: libxpc.dylib + 75489 [25DB244E-217D-3CE0-A8F2-0C4255783B42]: 0x89
+Jun 13 00:06:23 macnim DropboxActivityProvider[668]: !! failed to contact target application: Error Domain=NSOSStatusErrorDomain Code=-1700 "errAECoercionFail: bad parameter data or unable to coerce the data supplied " UserInfo={ErrorNumber=-1700, ErrorExpectedType=<NSAppleEventDescriptor: 'long'>}
+Jun 13 00:06:23 macnim DropboxActivityProvider[668]: !! (standard) invalid window-document path!
+Jun 13 00:06:23 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:06:36 --- last message repeated 1 time ---
+Jun 13 00:06:36 macnim DropboxActivityProvider[668]: !! failed to contact target application: Error Domain=NSOSStatusErrorDomain Code=-1728 "errAENoSuchObject: e.g.,: specifier asked for the 3rd, but there are only 2. Basically, this indicates a run-time resolution error. " UserInfo={ErrorNumber=-1728, ErrorOffendingObject=<SBObject @0x60000004f360: document of PreviewWindow id 73478 of application "Preview" (14248)>}
+Jun 13 00:06:36 macnim DropboxActivityProvider[668]: !! (standard) invalid window-document path!
+Jun 13 00:06:37 macnim DropboxActivityProvider[668]: !! failed to contact target application: Error Domain=NSOSStatusErrorDomain Code=-1700 "errAECoercionFail: bad parameter data or unable to coerce the data supplied " UserInfo={ErrorNumber=-1700, ErrorExpectedType=<NSAppleEventDescriptor: 'long'>}
+Jun 13 00:06:37 macnim DropboxActivityProvider[668]: !! (standard) invalid window-document path!
+Jun 13 00:06:43 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:07:13 --- last message repeated 2 times ---
+Jun 13 00:07:13 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:07:43 --- last message repeated 2 times ---
+Jun 13 00:07:43 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:08:13 --- last message repeated 2 times ---
+Jun 13 00:08:13 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:08:43 --- last message repeated 2 times ---
+Jun 13 00:08:43 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:09:02 --- last message repeated 1 time ---
+Jun 13 00:09:02 macnim com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Jun 13 00:09:03 --- last message repeated 2 times ---
+Jun 13 00:09:03 macnim com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.14806): Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/XPCServices/IDETouchBarSimulatorService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Jun 13 00:09:03 macnim com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.14806): Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/XPCServices/RootDebuggingXPCService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Jun 13 00:09:03 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:09:34 --- last message repeated 2 times ---
+Jun 13 00:09:34 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:10:04 --- last message repeated 2 times ---
+Jun 13 00:10:04 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:10:29 --- last message repeated 2 times ---
+Jun 13 00:10:29 macnim com.apple.xpc.launchd[1] (com.apple.quicklook[15181]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Jun 13 00:10:34 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:11:04 --- last message repeated 2 times ---
+Jun 13 00:11:04 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:11:24 --- last message repeated 2 times ---
+Jun 13 00:11:24 macnim syslogd[39]: ASL Sender Statistics
+Jun 13 00:11:34 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:11:59 --- last message repeated 2 times ---
+Jun 13 00:11:59 macnim systemstats[51]: assertion failed: 17E202: systemstats + 689866 [D1E75C38-62CE-3D77-9ED3-5F6D38EF0676]: 0x5
+Jun 13 00:12:04 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:12:34 --- last message repeated 2 times ---
+Jun 13 00:12:34 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:13:04 --- last message repeated 2 times ---
+Jun 13 00:13:04 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:13:34 --- last message repeated 2 times ---
+Jun 13 00:13:34 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:14:04 --- last message repeated 2 times ---
+Jun 13 00:14:04 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:14:34 --- last message repeated 2 times ---
+Jun 13 00:14:34 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:14:40 macnim com.apple.xpc.launchd[1] (com.apple.quicklook[16162]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Jun 13 00:14:44 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:15:10 --- last message repeated 2 times ---
+Jun 13 00:15:10 macnim com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Jun 13 00:15:13 macnim Docker[89001]: assertion failed: 17E202: libxpc.dylib + 75489 [25DB244E-217D-3CE0-A8F2-0C4255783B42]: 0x89
+Jun 13 00:15:13 macnim garcon[16315]: Connecting to Dropbox on 'com.getdropbox.dropbox.garcon.cafe_501'
+Jun 13 00:15:13 macnim garcon[16315]: Connected to Dropbox on 'com.getdropbox.dropbox.garcon.cafe_501'.
+Jun 13 00:15:13 macnim garcon[16315]: Garcon is ready (1 alive).
+Jun 13 00:15:13 macnim garcon[16315]: Invalidating watch set.
+Jun 13 00:15:13 macnim garcon[16315]: Watch set is now: {(
+	    file:///Users/nimiq/Dropbox/
+	)}.
+Jun 13 00:15:14 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:15:15 macnim garcon[16315]: Garcon destroyed (0 alive).
+Jun 13 00:15:15 macnim Docker[89001]: BUG in libdispatch client: kevent[mach_recv] monitored resource vanished before the source cancel handler was invoked
+Jun 13 00:15:24 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:15:54 --- last message repeated 2 times ---
+Jun 13 00:15:54 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:16:24 --- last message repeated 2 times ---
+Jun 13 00:16:24 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:16:47 --- last message repeated 2 times ---
+Jun 13 00:16:47 macnim kcm[16681]: DEPRECATED USE in libdispatch client: Setting timer interval to 0 requests a 1ns timer, did you mean FOREVER (a one-shot timer)?
+Jun 13 00:16:54 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:17:25 --- last message repeated 2 times ---
+Jun 13 00:17:25 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:17:55 --- last message repeated 2 times ---
+Jun 13 00:17:55 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:18:25 --- last message repeated 2 times ---
+Jun 13 00:18:25 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:18:51 --- last message repeated 2 times ---
+Jun 13 00:18:51 macnim com.apple.xpc.launchd[1] (com.apple.quicklook[17611]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Jun 13 00:18:55 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:19:05 macnim com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Jun 13 00:19:05 --- last message repeated 1 time ---
+Jun 13 00:19:05 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:19:05 macnim com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Jun 13 00:19:06 macnim com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.17689): Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/XPCServices/IDETouchBarSimulatorService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Jun 13 00:19:06 macnim com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.17689): Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/XPCServices/RootDebuggingXPCService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Jun 13 00:19:15 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:19:45 --- last message repeated 2 times ---
+Jun 13 00:19:45 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:20:15 --- last message repeated 2 times ---
+Jun 13 00:20:15 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:20:17 macnim systemstats[51]: assertion failed: 17E202: systemstats + 914800 [D1E75C38-62CE-3D77-9ED3-5F6D38EF0676]: 0x40
+Jun 13 00:20:25 --- last message repeated 2 times ---
+Jun 13 00:20:25 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:20:44 --- last message repeated 1 time ---
+Jun 13 00:20:44 macnim com.apple.xpc.launchd[1] (com.apple.quicklook[18108]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Jun 13 00:20:45 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:21:15 --- last message repeated 2 times ---
+Jun 13 00:21:15 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:21:25 --- last message repeated 1 time ---
+Jun 13 00:21:25 macnim syslogd[39]: ASL Sender Statistics
+Jun 13 00:21:35 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:21:59 --- last message repeated 2 times ---
+Jun 13 00:21:59 macnim systemstats[51]: assertion failed: 17E202: systemstats + 689866 [D1E75C38-62CE-3D77-9ED3-5F6D38EF0676]: 0x5
+Jun 13 00:22:05 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:22:10 macnim kcm[18475]: DEPRECATED USE in libdispatch client: Setting timer interval to 0 requests a 1ns timer, did you mean FOREVER (a one-shot timer)?
+Jun 13 00:22:15 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:22:45 --- last message repeated 2 times ---
+Jun 13 00:22:45 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:23:15 --- last message repeated 2 times ---
+Jun 13 00:23:15 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:23:45 --- last message repeated 2 times ---
+Jun 13 00:23:45 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:24:15 --- last message repeated 2 times ---
+Jun 13 00:24:15 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:24:45 --- last message repeated 2 times ---
+Jun 13 00:24:45 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:24:55 macnim com.apple.xpc.launchd[1] (com.apple.quicklook[19173]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Jun 13 00:24:55 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:25:26 --- last message repeated 2 times ---
+Jun 13 00:25:26 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:25:56 --- last message repeated 2 times ---
+Jun 13 00:25:56 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:26:26 --- last message repeated 2 times ---
+Jun 13 00:26:26 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:26:56 --- last message repeated 2 times ---
+Jun 13 00:26:56 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:27:26 --- last message repeated 2 times ---
+Jun 13 00:27:26 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:27:56 --- last message repeated 2 times ---
+Jun 13 00:27:56 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:28:26 --- last message repeated 2 times ---
+Jun 13 00:28:26 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:28:56 --- last message repeated 2 times ---
+Jun 13 00:28:56 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:29:05 macnim com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent): Unknown key for integer: _DirtyJetsamMemoryLimit
+Jun 13 00:29:06 --- last message repeated 2 times ---
+Jun 13 00:29:06 macnim com.apple.xpc.launchd[1] (com.apple.quicklook[20182]): Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Jun 13 00:29:06 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:29:06 macnim com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.20175): Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/Frameworks/IDEKit.framework/Versions/A/XPCServices/IDETouchBarSimulatorService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Jun 13 00:29:06 macnim com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.20175): Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/XPCServices/RootDebuggingXPCService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Jun 13 00:29:16 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:29:46 --- last message repeated 2 times ---
+Jun 13 00:29:46 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Jun 13 00:30:00 --- last message repeated 1 time ---
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.cdscheduler" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.install" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.family.asl" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.callhistory.asl.conf" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsUICore" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/asl" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.authd" sharing output destination "/var/log/system.log" with ASL Module "com.apple.asl".
+	Output parameters from ASL Module "com.apple.asl" override any specified in ASL Module "com.apple.authd".
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.authd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.eventmonitor" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.secinitd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.mail" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.coreaudio" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.performance" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.iokit.power" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.icloud.fmfd" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 --- last message repeated 2 times ---
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.contacts.ContactsAutocomplete" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.mkb" sharing output destination "/private/var/log/keybagd.log" with ASL Module "com.apple.mkb.internal".
+	Output parameters from ASL Module "com.apple.mkb.internal" override any specified in ASL Module "com.apple.mkb".
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.mkb" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.CoreDuetAdmissionControl" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.MessageTracer" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.networking.boringssl" sharing output destination "/Library/Logs/CrashReporter" with ASL Module "com.apple.networking.networkextension".
+	Output parameters from ASL Module "com.apple.networking.networkextension" override any specified in ASL Module "com.apple.networking.boringssl".
+Jun 13 00:30:00 macnim syslogd[39]: Configuration Notice:
+	ASL Module "com.apple.clouddocs" claims selected messages.
+	Those messages may not appear in standard system log files or in the ASL database.
+Jun 13 00:30:06 macnim com.apple.xpc.launchd[1] (com.apple.preference.displays.MirrorDisplays): Service only ran for 0 seconds. Pushing respawn out by 10 seconds.

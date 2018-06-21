@@ -7,9 +7,12 @@ services:
       context: elasticsearch/
     volumes:
       - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
+      - ./elasticsearch-data:/usr/share/elasticsearch/data
     ports:
       - "9200:9200"
       - "9300:9300"
+      #- "9299:9299"
+      #- "9399:9399"
     environment:
       ES_JAVA_OPTS: "-Xmx256m -Xms256m"
     networks:
@@ -42,6 +45,50 @@ services:
       - elk
     depends_on:
       - elasticsearch
+
+  # TODO it should wait for logstash to be ready.
+  filebeat:
+    build:
+      context: filebeat/
+    volumes:
+      - ./filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - ./filebeat/modules.d:/usr/share/filebeat/modules.d:ro
+      - ./filebeat/test-data/logs/nginx:/var/log/nginx:ro
+      - ./filebeat/test-data/logs/system.log:/var/log-host/system.log:ro
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+      - logstash
+      - kibana
+    #ports:
+      #- "5000:5000"
+      #- "5044:5044"
+    # With debug output:
+    command: bash -c "rm -f /usr/share/filebeat/data/registry && filebeat -e -d publish"
+    # Without debug output:
+    # command: bash -c "rm -f /usr/share/filebeat/data/registry && filebeat -e"
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - 3000:3000
+    volumes:
+      - ./grafana-data:/var/lib/grafana
+    networks:
+      - elk
+    depends_on:
+      - elasticsearch
+
+
+#  ubuntu:
+#    image: ubuntu:18.04
+#    networks:
+#      - elk
+#    depends_on:
+#      - elasticsearch
+
+
 
 networks:
 
