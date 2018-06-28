@@ -55,6 +55,9 @@ services:
       - ./filebeat/modules.d:/usr/share/filebeat/modules.d:ro
       - ./filebeat/test-data/logs/nginx:/var/log/nginx:ro
       - ./filebeat/test-data/logs/system.log:/var/log-host/system.log:ro
+      - ./filebeat/test-data/logs/celery:/var/log/celery:ro
+      - /Users/nimiq/workspace/inspire-next/celery.log:/var/log/celery-live/celery.log:ro
+
     networks:
       - elk
     depends_on:
@@ -65,7 +68,11 @@ services:
       #- "5000:5000"
       #- "5044:5044"
     # With debug output:
-    command: bash -c "rm -f /usr/share/filebeat/data/registry && filebeat -e -d publish"
+
+    # Delete the registry and re-fetch everything.
+    # command: bash -c "rm -f /usr/share/filebeat/data/registry && filebeat -e -d publish"
+    command: bash -c "filebeat -e -d publish"
+
     # Without debug output:
     # command: bash -c "rm -f /usr/share/filebeat/data/registry && filebeat -e"
 

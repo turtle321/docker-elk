@@ -25,7 +25,9 @@ filebeat.prospectors:
 
   # Paths that should be crawled and fetched. Glob based paths.
   paths:
-    - /var/log/*.log123
+    # - /var/log/*.log
+    - /var/log/celery/celery*
+    - /var/log/celery-live/celery.log
     # - /var/log/*.log
     # - /Users/nimiq/workspace/docker-elk/new/filebeat-6.2.4-darwin-x86_64/logs/*/*.log
     # - c:\programdata\elasticsearch\logs\*

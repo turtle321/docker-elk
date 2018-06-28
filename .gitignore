@@ -1,3 +1,4 @@
 elasticsearch-data/
 grafana-data/
 .DS_Store
+test-data/

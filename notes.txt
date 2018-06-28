@@ -64,11 +64,11 @@ docker-compose up filebeat
 
 
 ---------------------
-STATUS
+Nota: ES e porta non standard
 
-Logstash crasha dopo che filebeat gli ha mandato 250 right del file di nginx.
-Inoltre si lamenta che Es non e' su, e sembra che sia xpack, allora ho aggiunto la config:
+Se sposto ES su un'altra porta, Logstash crasha dopo che filebeat gli ha mandato
+250 righe del file di nginx.
+Inoltre si lamenta che ES non e' su, e sembra che sia xpack, allora ho aggiunto la config:
 xpack.monitoring.elasticsearch.url: http://elasticsearch:9299
 al logstash.yml ma non ha funz.
-
-PROVARE A TENERE ES SULLA PORTA STD 9200 e vedere se nn crasha
+Tenendo ES sull aporta standard tutto funziona.
